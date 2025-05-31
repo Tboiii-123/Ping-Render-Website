@@ -1,0 +1,13 @@
+name: Ping Render Site
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"  # Every 10 minutes
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Render Site
+        run: curl -s https://ecommerce-webiste-29k9.onrender.com/ > /dev/null
