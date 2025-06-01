@@ -11,3 +11,6 @@ jobs:
     steps:
       - name: Ping Render Site
         run: curl -s https://ecommerce-webiste-29k9.onrender.com/ > /dev/null
+
+      - name: Ping Render Site 2
+        run: curl -s https://mail-me-2cm1.onrender.com// > /dev/null
