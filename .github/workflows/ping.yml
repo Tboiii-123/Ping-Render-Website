@@ -14,3 +14,5 @@ jobs:
 
       - name: Ping Render Site 2
         run: curl -s https://mail-me-2cm1.onrender.com/ > /dev/null
+      - name: Ping Render Site 3
+        run:  curl -s https://altivox-project.onrender.com/ > /dev/null
