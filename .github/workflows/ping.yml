@@ -10,10 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Ecommerce Website
-        run: curl -s https://ecommerce-webiste-29k9.onrender.com/ > /dev/null
+        run: curl -s https://community-tracker.onrender.com/ > /dev/null
 
-      - name: Ping Mail Me
-        run: curl -s https://mail-me-2cm1.onrender.com/ > /dev/null
-
-      - name: Ping Altivox Project
-        run: curl -s https://altivox-project.onrender.com/ > /dev/null
+      
