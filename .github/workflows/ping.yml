@@ -14,3 +14,7 @@ jobs:
 
       - name: Ping Prompt Zuko Website
         run: curl -s https://prompt-zuko.onrender.com/
+
+      - name: Ping Prompt Zuko Website
+        run: curl -s https://microservice-traslational-api.onrender.com/docs/
+
