@@ -9,11 +9,8 @@ jobs:
   ping:
     runs-on: ubuntu-latest
     steps:
-      - name: Ping Ecommerce Website
-        run: curl -s https://community-tracker.onrender.com/
-
-      - name: Ping Prompt Zuko Website
-        run: curl -s https://prompt-zuko.onrender.com/
+      - name: Ml content flagging
+        run: curl -s https://content-moderation-ml.onrender.com/docs/
 
       - name: Ping Translated Api Microservice
         run: curl -s https://microservice-traslational-api.onrender.com/docs/
