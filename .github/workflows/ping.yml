@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ml content flagging
-        run: curl -s https://content-moderation-ml.onrender.com/health/
+        run: curl -s https://content-moderation-ml.onrender.com/health
 
       - name: Ping Translated Api Microservice
         run: curl -s https://microservice-traslational-api.onrender.com/docs/
